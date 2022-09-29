@@ -1,0 +1,58 @@
+golang-github-cespare-xxhash (2.1.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Mark golang-github-cespare-xxhash-dev Multi-Arch: foreign. (Closes: #984649)
+    Thanks to Helmut Grohne <helmut@subdivi.de> for the patch
+
+ -- Reinhard Tartler <siretart@tauware.de>  Sat, 28 Aug 2021 16:05:44 +0200
+
+golang-github-cespare-xxhash (2.1.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Standards-Version: 4.4.1.
+  * Added myself to Uploaders (Closes: #940355).
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Mon, 16 Dec 2019 12:56:20 +1100
+
+golang-github-cespare-xxhash (2.1.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Standards-Version: 4.4.0.
+  * DH & compat to version 12.
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Mon, 09 Sep 2019 12:21:31 +1000
+
+golang-github-cespare-xxhash (1.1.0-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Alexandre Viau <aviau@debian.org>  Sat, 17 Nov 2018 12:41:20 -0500
+
+golang-github-cespare-xxhash (1.0.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Vcs-* urls: pkg-go-team -> go-team.
+
+ -- Alexandre Viau <aviau@debian.org>  Tue, 06 Feb 2018 00:05:42 -0500
+
+golang-github-cespare-xxhash (1.0.0-2) unstable; urgency=medium
+
+  * point Vcs-* urls to salsa.d.o subproject
+
+ -- Alexandre Viau <aviau@debian.org>  Thu, 25 Jan 2018 16:41:31 -0500
+
+golang-github-cespare-xxhash (1.0.0-1) unstable; urgency=medium
+
+  * Move to salsa.debian.org.
+  * Testsuite: autopkgtest-pkg-go.
+  * Priority extra -> optional.
+  * New upstram version.
+
+ -- Alexandre Viau <aviau@debian.org>  Sat, 30 Dec 2017 14:18:12 -0500
+
+golang-github-cespare-xxhash (0.0~git20170604.0.1b6d2e4-1) unstable; urgency=medium
+
+  * Initial release (Closes: #865077)
+
+ -- Alexandre Viau <aviau@debian.org>  Mon, 19 Jun 2017 01:25:51 -0400

@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+export DH_GOLANG_EXCLUDES := xxhashbench
+
+%:
+	dh $@ --buildsystem=golang --with=golang
+
+override_dh_auto_install:
+	dh_auto_install
+	rm -rf debian/*/usr/bin
